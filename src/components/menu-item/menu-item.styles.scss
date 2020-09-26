@@ -12,18 +12,16 @@
 
   &:hover {
     cursor: pointer;
-  
+
     & .background-image {
-      transform: scale(1.11);
+      transform: scale(1.12);
       transition: transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
     }
-  
+
     & .content {
-      opacity: 0.9;
+      opacity: 0.85;
     }
   }
-  
-  
 
   &:first-child {
     margin-right: 7.5px;
@@ -43,7 +41,7 @@
     background-position: center;
     background-size: cover;
     border-radius: 20px;
-  } 
+  }
 
   .content {
     height: 90px;
