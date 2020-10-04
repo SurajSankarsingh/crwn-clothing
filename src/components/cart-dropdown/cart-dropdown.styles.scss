@@ -12,6 +12,12 @@
   right: 35px;
   z-index: 5;
   
+  .empty-message {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    font-size: 18px;
+  }
 
   .cart-items {
     height: 285px;
@@ -26,4 +32,6 @@
   button {
     margin-top: auto;
   }
+
+  
 }
