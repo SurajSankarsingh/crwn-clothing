@@ -11,10 +11,10 @@ export const CollectionItemContainer = styled.div`
   border-radius: 20px;
   &:hover {
     .image {
-      opacity: 0.8;
+      opacity: 0.9;
     }
     button {
-      opacity: 0.85;
+      opacity: 0.6;
       display: flex;
     }
   }
