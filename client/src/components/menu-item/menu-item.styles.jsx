@@ -28,6 +28,22 @@ export const MenuItemContainer = styled.div`
   &:last-child {
     margin-left: 7.5px;
   }
+
+  @media screen and (max-width: 800px) {
+    width: 90%; 
+  }
+
+  @media screen and (max-width: 620px) {
+    width: 90%;
+  }
+
+  @media screen and (max-width: 400px) {
+    width: 90%; 
+  }
+
+  @media screen and (max-width: 300px) {
+    width: 950%; 
+  }
 `;
 
 export const BackgroundImageContainer = styled.div`
